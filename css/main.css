@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+    height: auto;
+}
+body{
+    background: #f2eeeb;
+
+
+}
+.a{
+    text-decoration: none;
+}
+.amail{
+    text-decoration: none;
+    color:white;
+}
+.amail:hover{
+    color: #f2eeeb;
+}
+.btn{
+    box-shadow: -1px 12px 12px -7px rgba(0, 0, 0, 0.2);
+
+}
+.topper{
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+    background: #292a2c;
+    height: 10vh;
+    top: 0;
+    z-index: 1000;
+    position: sticky;
+    box-shadow: -1px 15px 18px -4px rgba(0, 0, 0, 0.2);
+}
+.topper-table{
+    background: #f2eeeb;
+    font-size: 24px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    min-width: 90vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    z-index: -1;
+    box-shadow: -1px 12px 19px 0px rgba(34, 60, 80, 0.2) inset;
+
+}
+
+.photo1 {
+    overflow: hidden;
+    border-radius: 10px 10px 10px 10px;
+    background-image: url(../img/DSC0054.jpg);
+    background-size: cover;
+    display: flex;
+    height: 40vh;
+    width: 30vw;
+    box-shadow: -1px 2px 44px 25px rgba(0, 0, 0, 0.2);
+
+    transition: all 0.5s ease-out;
+}
+
+.photo2 {
+    overflow: hidden;
+
+    border-radius: 10px 10px 10px 10px;
+    background-image: url(../img/2e2fc5708121abf1250654583e5196c0.jpg);
+    background-size: cover;
+    display: flex;
+    height: 40vh;
+    width: 30vw;
+    box-shadow: -1px 2px 44px 25px rgba(0, 0, 0, 0.2);
+
+    transition: all 0.5s ease-out;
+}
+
+.photo1:hover {
+    transform: scale(1.05);
+}
+
+
+
+.photo2:hover {
+    transform: scale(1.05);
+}
+
+.text1{
+    color: #292a2c;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2.5;
+    font-size: 20px;
+    letter-spacing: 1px;
+
+
+}
+
+.text2{
+    color: #292a2c;
+    text-align: center;
+    line-height: 2.5;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.abs{
+    box-shadow: 1px -14px 16px -5px rgba(0, 0, 0, 0.2);
+    background: #292a2c;
+    height: 5vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.mail{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
