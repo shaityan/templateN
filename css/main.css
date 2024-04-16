@@ -67,7 +67,7 @@ body{
     display: flex;
     align-items: center;
     height: 100vh;
-    min-width: 30vw;
+    min-width: 90vw;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
