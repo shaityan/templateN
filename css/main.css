@@ -66,8 +66,8 @@ body{
     color: whitesmoke;
     display: flex;
     align-items: center;
-    height: 100vh;
-    min-width: 90vw;
+    height: 150vh;
+    width: 100vw;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
