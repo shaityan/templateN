@@ -6,8 +6,8 @@ html{
 }
 body{
     background: #f2eeeb;
-
-
+    overflow-x: hidden;
+    background: #f2eeeb;
 }
 .a{
     text-decoration: none;
@@ -43,31 +43,36 @@ body{
     box-shadow: -1px 15px 18px -4px rgba(0, 0, 0, 0.2);
 }
 .topper-table{
-    background: #f2eeeb;
+    row-gap: 200px;
     font-size: 24px;
     color: whitesmoke;
     display: flex;
     align-items: center;
-    height: 90vh;
+    height: auto;
     width: 100vw;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
     z-index: -1;
-    box-shadow: -1px 12px 19px 0px rgba(34, 60, 80, 0.2) inset;
-
+    /* box-shadow: -1px 12px 19px 0px rgba(34, 60, 80, 0.2) inset; */
+    padding-top: 5vh;
+    /* padding-bottom: 5vh; */
 }
 
+.topper-table td{
+    margin-right: 2em;
+    margin-left: 2em;
+}
 
 .topper-table-mob{
 
-    background: #f2eeeb;
+    /* background: #f2eeeb; */
     font-size: 24px;
     color: whitesmoke;
     display: flex;
     align-items: center;
-    height: 150vh;
+    height: auto;
     width: 100vw;
     flex-direction: row;
     flex-wrap: wrap;
@@ -178,9 +183,11 @@ body{
     justify-content: center;
     display: flex;
     align-items: center;
+    margin-top: 7vh;
 }
 .mail{
     text-align: center;
     font-family: "Montserrat", sans-serif;
+    
 }
 
